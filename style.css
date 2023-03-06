@@ -1,0 +1,120 @@
+* *::after *::before {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: rgb(4, 4, 48);
+  padding: 3rem;
+  box-sizing: border-box;
+}
+.header__main {
+  background-image: url(images/illustration-hero-left.svg),
+    url(images/illustration-hero-right.svg);
+  background-position: -4.5%, 103.9%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  text-align: center;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  height: 50vh;
+  margin-top: 5rem;
+}
+.header__main-image--left {
+  margin-left: -6rem;
+}
+.header__main-image--right {
+  margin-right: -6rem;
+}
+.header__main-content {
+  background-image: url(images/bg-hero-squiggle.svg);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  margin: 1rem 2rem;
+}
+.header__main-content--heading {
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+}
+.heading-span {
+  color: aqua;
+}
+.header__main-content--paragraph {
+  font-size: 1.2rem;
+  color: #eee;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 200;
+}
+.section-benefits {
+  display: flex;
+  justify-content: center;
+  /* justify-content: center; */
+  /* padding: 3rem; */
+  margin-top: 15rem;
+}
+.section-benefits__package {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  padding: 2rem;
+}
+.section-benefits__package-image {
+  width: 30%;
+  background-color: rgb(23, 116, 119);
+  padding: 2rem;
+  border-radius: 20%;
+}
+.section-benefits__package-heading {
+  font-family: arial;
+  color: white;
+  font-size: 2rem;
+}
+.section-benefits__package-description {
+  font-size: 1.5rem;
+  color: white;
+}
+.section-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-pricing__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 5rem auto;
+}
+.section-pricing__heading-header {
+  font-size: 3rem;
+  color: white;
+  padding: 2rem;
+  margin: 1.5rem o;
+}
+.section-pricing__heading-description {
+  font-size: 1.5rem;
+  color: #eee;
+  padding: 1rem;
+  text-align: center;
+  line-height: 1cm;
+}
+.section-pricing__options {
+  display: flex;
+  justify-content: center;
+}
